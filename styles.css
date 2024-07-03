@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('logo.png') no-repeat center center fixed; /* Replace with your background image */
+    background-size: cover;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for header */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for boxes */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Lighten the background on hover */
+}
+
+.box-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.box-link:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 3em;
+}
+
+.main-content p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+/* Basic reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
